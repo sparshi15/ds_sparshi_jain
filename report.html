@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Web3 Trading Team - Trader Behavior & Market Sentiment Analysis</title>
+</head>
+<body>
+
+<h1>Trader Behavior & Market Sentiment Analysis</h1>
+
+<h2>📌 Project Overview</h2>
+<p>This project analyzes historical trader data alongside the Bitcoin Fear & Greed Index to understand how trading behavior (profitability, risk, volume, leverage) aligns or diverges from overall market sentiment. The analysis aims to identify patterns that could guide smarter trading strategies.</p>
+<p><b>Core Question:</b> How does trader performance vary between periods of market Fear and Greed?</p>
+
+<h2>📂 Dataset Description</h2>
+<ul>
+<li><b>Historical Trader Data</b>: Account, symbol, execution price, size, side, timestamp, position, closed PnL, leverage, fees</li>
+<li><b>Fear & Greed Index</b>: Daily classification (Fear, Extreme Fear, Greed, Extreme Greed) with sentiment score</li>
+</ul>
+
+<h2>🔍 Key Findings</h2>
+<ul>
+<li>Average Closed PnL is significantly higher on Greed days compared to Fear days.</li>
+<li>Leverage usage tends to increase during Greed periods, suggesting more aggressive trading behavior.</li>
+<li>Trade volumes spike during sentiment extremes, but not all volume translates into profit.</li>
+</ul>
+
+<h2>📉 Performance by Sentiment</h2>
+<ul>
+<li><b>Fear Days</b>: Lower PnL, more cautious trades, smaller average position sizes.</li>
+<li><b>Greed Days</b>: Higher PnL potential but also increased risk from higher leverage.</li>
+</ul>
+
+<h2>🛠 Project Workflow</h2>
+<ol>
+<li>Loaded trader and sentiment datasets</li>
+<li>Cleaned data, standardized date formats</li>
+<li>Merged datasets on date for combined analysis</li>
+<li>Calculated metrics: average PnL, leverage, volume per sentiment</li>
+<li>Visualized results using bar charts and line plots</li>
+</ol>
+
+<h2>📊 Key Visualizations</h2>
+<ul>
+<li>Average Closed PnL by Sentiment – Bar Chart</li>
+<li>Leverage Trends by Sentiment – Line Chart</li>
+<li>Trade Volume Distribution – Histogram</li>
+</ul>
+<p><img src="outputs/avg_pnl_by_sentiment.png" width="400">
+<!-- Add more image links from your outputs folder here -->
+</p>
+
+<h2>💡 Recommendations</h2>
+<ul>
+<li>During Greed periods, apply stricter risk management to avoid losses from over-leveraging.</li>
+<li>During Fear periods, explore contrarian strategies for potential gains.</li>
+<li>Monitor sentiment shifts as early indicators for changing trade setups.</li>
+</ul>
+
+<h2>📑 Full Resources</h2>
+<ul>
+<li><a href="ds_report.pdf">📄 PDF Report</a></li>
+<li><a href="notebook_1.ipynb">💻 Colab Notebook</a></li>
+<li><a href="notebook_1.html">🌐 HTML Notebook with Outputs</a></li>
+<li><a href="csv_files/merged_data.csv">📈 Processed Data</a></li>
+</ul>
+
+<h2>🔮 Future Scope</h2>
+<ul>
+<li>Integrate real-time sentiment tracking</li>
+<li>Build predictive models linking sentiment to PnL outcomes</li>
+<li>Automate alerts for sentiment-based trading signals</li>
+</ul>
+
+<h2>🚀 Conclusion</h2>
+<p>The relationship between market sentiment and trader behavior reveals clear opportunities for strategy optimization. Understanding when traders take more risks — and whether those risks pay off — can help in building more consistent profitability over time.</p>
+
+</body>
+</html>
