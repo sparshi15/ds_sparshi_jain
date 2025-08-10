@@ -46,7 +46,7 @@
 <li>Leverage Trends by Sentiment – Line Chart</li>
 <li>Trade Volume Distribution – Histogram</li>
 </ul>
-<p><img src="outputs/avg_pnl_by_sentiment.png" width="400">
+<p><img src="https://github.com/sparshi15/ds_sparshi_jain/blob/main/avg_pnl_by_sentiment.png" width="400">
 <!-- Add more image links from your outputs folder here -->
 </p>
 
@@ -58,13 +58,13 @@
 </ul>
 
 <h2>📑 Full Resources</h2>
+<h2>📑 Full Resources</h2>
 <ul>
-<li><a href="ds_report.pdf">📄 PDF Report</a></li>
-<li><a href="notebook_1.ipynb">💻 Colab Notebook</a></li>
-<li><a href="notebook_1.html">🌐 HTML Notebook with Outputs</a></li>
-<li><a href="csv_files/merged_data.csv">📈 Processed Data</a></li>
+  <li><a href="https://github.com/sparshi15/ds_sparshi_jain/blob/main/ds_report.pdf">📄 PDF Report</a></li>
+  <li><a href="https://github.com/sparshi15/ds_sparshi_jain/blob/main/notebook_1.ipynb">💻 Colab Notebook</a></li>
+  <li><a href="https://github.com/sparshi15/ds_sparshi_jain/blob/main/notebook_1.html">🌐 HTML Notebook with Outputs</a></li>
+  <li><a href="https://github.com/sparshi15/ds_sparshi_jain/blob/main/csv_files/merged_data.csv">📈 Processed Data</a></li>
 </ul>
-
 <h2>🔮 Future Scope</h2>
 <ul>
 <li>Integrate real-time sentiment tracking</li>
